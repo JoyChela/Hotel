@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>Hotel Inn</h1>
+      <Navbar />
     </>
   )
 }
